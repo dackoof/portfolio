@@ -1,0 +1,1866 @@
+<!doctype html>
+<html id="htmlID" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="generator" content="dackoof">
+
+    <title id="seoTitle">dackoof</title>
+    <link rel="icon"  type="image/png" sizes="16×16" href="/pb4/hiro.png">
+    <meta id="seoDesc" name="description" content="">
+    <meta id="seoKeywords" name="keywords" content="">
+    <link rel="icon" id="seoSiteIcon" href="">
+
+    <meta id="seoOgTitle" property="og:title" content="">
+    <meta id="seoOgSiteName" property="og:site_name" content="">
+    <meta id="seoOgDesc" property="og:description" content="">
+    <meta id="seoOgImg" property="og:image" content="">
+    <meta id="seoOgUrl" property="og:url" content="">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="" />
+    <meta id="seoTwitterTitle" name="twitter:title" content="" />
+    <meta id="seoTwitterDescription" name="twitter:description" content="">
+    <meta id="seoTwitterImg" name="twitter:image" content="" />
+
+
+
+    <!-- source-css -->
+    <link rel="stylesheet" href="https://d2z18g6bj3mwjn.cloudfront.net/pb4/_output/pb4.out.admin.ver.1643272428272.css" />
+    <!-- /source-css -->
+
+
+    <!-- Global site tag (gtag.js) - Google Ads: 991509311 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-991509311"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-991509311');
+    </script>
+</head>
+
+<body class="admin mobilePreview">
+    <div class="adminBrowser">
+        <div class="addressBar">
+            <div class="domain"><span class="https"></span></div>
+        </div>
+
+        <div id="frontApp" class="frontApp" v-cloak :class="siteState.MobileClasses && siteState.MobileClasses.Gallery && siteState.MobileClasses.Gallery['items-per-row']  ? siteState.MobileClasses.Gallery['items-per-row'] : ''">
+            <global-styles></global-styles>
+            <child-styles></child-styles>
+            <link-styles></link-styles>
+            <child-link-styles></child-link-styles>
+            <global-styles-mobile></global-styles-mobile>
+            <mobile-css-styles></mobile-css-styles>
+            <customcss-styles></customcss-styles>
+            <google-fonts-styles></google-fonts-styles>
+
+            <div class="Page" v-bind:class="{hasLeftMenu : (siteState.MainMenu.MenuType === 'left' && pagesState.current.page.HideMenu !== 1) }" v-bind:id="'page-'+pagesState.current.url.substring(1)">
+                <component v-bind:is="siteState.MainMenu.View" v-bind:main-menu="siteState.MainMenu" v-if="pagesState.current.page.HideMenu !== 1"></component>
+
+                <router-view></router-view>
+
+                <pb-checkout v-if="checkoutState.showCheckout"></pb-checkout>
+                <added-to-cart-popup v-if="checkoutState.showAddedToCart"></added-to-cart-popup>
+
+                <front-alert-popup v-if="frontAlertData.show" v-on:close="frontAlertData.show = false" v-bind:message="frontAlertData.message"></front-alert-popup>
+                <front-confirm-popup v-if="frontConfirmData.show" v-on:close="frontConfirmData.show = false" v-bind:confirm="frontConfirmData.confirm" v-bind:message="frontConfirmData.message"></front-confirm-popup>
+
+                
+                <cookie-message v-if="siteState.EnableCookieMessage === 1"></cookie-message>
+                <music-player v-if="siteState._showMusicPlayer"></music-player>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- source-js-admin1 -->
+    <script src="https://d2z18g6bj3mwjn.cloudfront.net/pb4/_output/pb4.out.admin1.ver.1643272428301.js"></script>
+    <!-- /source-js-admin1 -->
+
+
+
+    <script>
+        window.useCdn = true;
+    </script>
+
+    <script>
+        window.pb = {
+            isAdmin: true
+        };
+
+        pages.actions.init.serverPages([{
+            "Guid": "rO89XKFKbPKI6aLy",
+            "SiteId": 3335207,
+            "IsStartPage": null,
+            "HideMenu": null,
+            "Url": "\/services",
+            "Title": "SERVICES",
+            "SeoTitle": null,
+            "SeoDescription": null,
+            "ShareImage": null,
+            "CreatedAt": "2022-01-28 15:49:56",
+            "Style": null,
+            "UnPublish": null,
+            "Sections": [{
+                "Guid": "Uy9Pn4iRkuCwyTEq",
+                "Idx": 0,
+                "SiteId": 3335207,
+                "PageGuid": "rO89XKFKbPKI6aLy",
+                "ProductGuid": null,
+                "View": "zigzag-temp",
+                "ViewType": "Service",
+                "ViewId": "zigzag",
+                "Style": {
+                    "padding-top": "5vh",
+                    "padding-bottom": "5vh",
+                    "padding-left": "5vw",
+                    "padding-right": "5vw"
+                },
+                "Settings": {
+                    "animation": ""
+                },
+                "ElementsTop": [{
+                    "Guid": "PrZTbodkXnUf6tlW",
+                    "View": "header-view",
+                    "Content": "SERVICES",
+                    "Style": {
+                        "margin-bottom": "0.7em",
+                        "max-width": "1200px"
+                    },
+                    "Settings": {
+                        "animation": "text-tracking-in-expand"
+                    }
+                }, {
+                    "Guid": "dvj7wRdG0Hd6TLHo",
+                    "View": "longtext-view",
+                    "Content": "Below is a list of the services I offer. Contact me if you want to know more.",
+                    "Style": {
+                        "margin-bottom": "1.1em",
+                        "max-width": "1200px",
+                        "text-align": "center"
+                    },
+                    "Settings": {
+                        "animation": "fade-in"
+                    }
+                }],
+                "ElementsBottom": null,
+                "ElementsFixed": {
+                    "Items1": {
+                        "Guid": "dxKfqkQo8qzcIcyp",
+                        "View": "services-view",
+                        "Settings": {
+                            "item-size": "5",
+                            "item-margin": "4",
+                            "animation": "fade-up-right",
+                            "shadows": "",
+                            "rounded": "",
+                            "borders": "",
+                            "figcap-position": "none",
+                            "hover-transition": "brighten",
+                            "iframe-thumb-play": "1"
+                        },
+                        "Style": {
+                            "margin-top": "4em",
+                            "margin-bottom": "4em"
+                        },
+                        "Content": [{
+                            "Guid": "QSY3ca7x2F9dl0QZ",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": "mailto:dacksmac@gmail.com",
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/x2227fNDatPfnvu.jpg",
+                                "Height": 1080,
+                                "Width": 1920,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "LRuLks77cWbroOld",
+                                    "View": "captiontitle-view",
+                                    "Content": "GFX Work",
+                                    "Style": []
+                                }, {
+                                    "Guid": "DTm5V7rKlb3uEZZL",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "Graphic Design",
+                                    "Style": []
+                                }, {
+                                    "Guid": "gpOJk0ZYgNn6i7LZ",
+                                    "View": "captiontext-view",
+                                    "Content": "Hire Me For GFX Works Like Banners, Advertisement, Logos, Thumbnails.",
+                                    "Style": []
+                                }, {
+                                    "Guid": "VeHVg51Lk63AMUW",
+                                    "View": "captionbutton-view",
+                                    "Style": [],
+                                    "Content": "Discover more"
+                                }]
+                            }
+                        }]
+                    }
+                },
+                "Title": null
+            }]
+        }, {
+            "Guid": "J5w9q783OPKAijIK",
+            "SiteId": 3335207,
+            "IsStartPage": null,
+            "HideMenu": null,
+            "Url": "\/aboutme",
+            "Title": "ABOUT ME",
+            "SeoTitle": null,
+            "SeoDescription": null,
+            "ShareImage": null,
+            "CreatedAt": "2022-01-28 15:41:12",
+            "Style": null,
+            "UnPublish": null,
+            "Sections": [{
+                "Guid": "bpgo57wrvGBtPPqB",
+                "Idx": 0,
+                "SiteId": 3335207,
+                "PageGuid": "J5w9q783OPKAijIK",
+                "ProductGuid": null,
+                "View": "cover-temp",
+                "ViewType": "Text",
+                "ViewId": "textfullscreen3",
+                "Style": {
+                    "padding-top": "8vh",
+                    "padding-bottom": "8vh",
+                    "padding-left": "10vw",
+                    "padding-right": "10vw",
+                    "min-height": "100vh",
+                    "background-image": "url()",
+                    "border-top-width": "0em"
+                },
+                "Settings": {
+                    "animation": "",
+                    "class": "text3"
+                },
+                "ElementsTop": [{
+                    "Guid": "ZfVqWhHIBKgsCEvM",
+                    "View": "header-view",
+                    "Content": "ABOUT ME",
+                    "Style": {
+                        "margin-bottom": "0.7em",
+                        "color": "#ffffff"
+                    },
+                    "Settings": {
+                        "animation": "text-tracking-in-expand"
+                    }
+                }, {
+                    "Guid": "ZVO4uJtEw2UGSjLV",
+                    "View": "longtext-view",
+                    "Content": "Hi I'm Aditya Sunilkumar, A 15 Y\/o Self Taught Artist And Graphic Designer. I Like to Play Video Games, Do some Interesting stuffs, Learn New things and do my own hobbies.",
+                    "Style": {
+                        "margin-bottom": "1.1em",
+                        "color": "#ffffff",
+                        "text-align": "center",
+                        "max-width": "800px"
+                    },
+                    "Settings": {
+                        "animation": "fade-in"
+                    }
+                }, {
+                    "Guid": "n4lNnrkefJlH7yR6",
+                    "View": "socialmedia-view",
+                    "Style": {
+                        "font-size": "1.6em",
+                        "margin-top": "1em",
+                        "margin-bottom": "0",
+                        "color": "#ffffff",
+                        "align-self": "center"
+                    },
+                    "Settings": {
+                        "icon-type": "regular",
+                        "icon-behaviour": "link",
+                        "animation": "fade-up"
+                    },
+                    "Content": [{
+                        "Guid": "T8kMMtfCgsLa65WW",
+                        "Type": "twitter",
+                        "Title": "Twitter",
+                        "Link": "https:\/\/twitter.com\/dackoof"
+                    }, {
+                        "Guid": "K6Do4IMJQcN6gj2o",
+                        "Type": "instagram",
+                        "Title": "Instagram",
+                        "Link": "https:\/\/www.instagram.com\/dackoof"
+                    }]
+                }],
+                "ElementsBottom": null,
+                "ElementsFixed": {
+                    "SingleImageBg1": {
+                        "Guid": "mS06fyp8ZBlgPUqG",
+                        "View": "singleimagebg-view",
+                        "Settings": {
+                            "iframe-hide-controls": "1",
+                            "iframe-auto-play": "1",
+                            "iframe-mute": "1",
+                            "iframe-loop": "1",
+                            "iframe-cover": "1",
+                            "animation": "fade-in",
+                            "hover-transition": "bg-zoom-left"
+                        },
+                        "Style": {
+                            "background-attachment": "fixed",
+                            "background-size": "cover"
+                        },
+                        "Content": {
+                            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/m2227jdQOj46Vnt.jpg",
+                            "Width": 1920,
+                            "Height": 1080
+                        }
+                    }
+                },
+                "Title": null
+            }]
+        }, {
+            "Guid": "eYUVTiRrOu1UH45S",
+            "SiteId": 3335207,
+            "IsStartPage": null,
+            "HideMenu": null,
+            "Url": "\/galler",
+            "Title": "GALLERY",
+            "SeoTitle": null,
+            "SeoDescription": null,
+            "ShareImage": null,
+            "CreatedAt": "2022-01-28 15:34:06",
+            "Style": null,
+            "UnPublish": null,
+            "Sections": [{
+                "Guid": "fmiVrnPdz1t3gPdy",
+                "Idx": 0,
+                "SiteId": 3335207,
+                "PageGuid": "eYUVTiRrOu1UH45S",
+                "ProductGuid": null,
+                "View": "evenrows-temp",
+                "ViewType": "Gallery",
+                "ViewId": "evenrows",
+                "Style": {
+                    "padding-top": "5vh",
+                    "padding-bottom": "5vh",
+                    "padding-left": "5vw",
+                    "padding-right": "5vw",
+                    "background-image": "url(https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/m2227jdQOj46Vnt.jpg)",
+                    "background-attachment": "fixed"
+                },
+                "Settings": {
+                    "animation": ""
+                },
+                "ElementsTop": [{
+                    "Guid": "uDeYcHYdn1CCXnta",
+                    "View": "header-view",
+                    "Content": "WORKS",
+                    "Style": {
+                        "margin-bottom": "0.7em",
+                        "max-width": "1200px",
+                        "color": "rgba(255,255,255,1)"
+                    },
+                    "Settings": {
+                        "animation": "text-tracking-in-expand"
+                    }
+                }, {
+                    "Guid": "jjBP08i31UlDu1ba",
+                    "View": "longtext-view",
+                    "Content": "In this gallery you can see a selection of my work. I hope you enjoy.",
+                    "Style": {
+                        "margin-bottom": "1.1em",
+                        "max-width": "1200px",
+                        "text-align": "center",
+                        "color": "rgba(255,255,255,1)"
+                    },
+                    "Settings": {
+                        "animation": "fade-in"
+                    }
+                }],
+                "ElementsBottom": null,
+                "ElementsFixed": {
+                    "Items1": {
+                        "Guid": "RJ3AEgE1t8wAY8O8",
+                        "View": "gallery-view",
+                        "Settings": {
+                            "animation": "zoom-random",
+                            "shadows": "",
+                            "rounded": "",
+                            "borders": "",
+                            "lb-lightbox": "lb1",
+                            "lb-animation": "fade-in",
+                            "lb-item-fit": "contain",
+                            "lb-figcap-position": "lbbottom1",
+                            "hover-transition": "brighten",
+                            "item-size": "3",
+                            "item-margin": "1",
+                            "figcap-position": "cover1"
+                        },
+                        "Style": {
+                            "margin-top": "4em",
+                            "margin-bottom": "4em"
+                        },
+                        "Content": [{
+                            "Guid": "Bip2KeJMTSgwCv8o",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/s2227wImGOco2MF.jpg",
+                                "Height": 1080,
+                                "Width": 1080,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "l224aNEdxFWvQKNa",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "GppNlW9pcuhHPFU3",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "ZvdebsXZsBX8jy2E",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/g2227TwttBapara.jpg",
+                                "Height": 1080,
+                                "Width": 1080,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "VeRPkPoe7SXuQIH4",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "w98Ccjlzjg59zjy8",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "o8MR4zbhrW9W13I6",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/h2227qd1gJEFr8u.jpg",
+                                "Height": 1080,
+                                "Width": 1920,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "DBnUcHBdoLA84s1z",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "w875gWYMywm6sgp0",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "bJbcqob1aMeMpski",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/m22272Lw3QuhAVb.jpg",
+                                "Height": 1004,
+                                "Width": 1920,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "ShMtnsjuUCeRMiXn",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "Tes5JQnujTP2sKmb",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "xxNNLj2eM4osNHq8",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/x2227MayJtvyust.png",
+                                "Height": 1080,
+                                "Width": 1920,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "ddQZrVLdiecu1V1E",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "QYHdqllpEeGBGdY0",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "C20JqfGPJvJtjMRu",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/x2227fNDatPfnvu.jpg",
+                                "Height": 1080,
+                                "Width": 1920,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "TfXpBvRBHS30RkPt",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "XT4mapoFb6vtmmxi",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "Qc7ONelMmY7QDwqN",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/v2227p8aEKmNGdN.jpg",
+                                "Height": 1080,
+                                "Width": 1080,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "LTJlyAoi0XxJupas",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "muw3ctT6c5UYqtrE",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "xP2ZnBqpbj5PRM2H",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/h2227Z4s2IFbq43.jpg",
+                                "Height": 1080,
+                                "Width": 1080,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "ESvWRrT0BOQXx9z1",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "EmyABhnDUZ4xFbzC",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "lisAQmktbZdnRxS7",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/m2227lRf4IuzYVk.gif",
+                                "Height": 240,
+                                "Width": 600,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "IeY3GlzHdugq80iW",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "p1OUo4jHI446tKWY",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "tPf0UIXSRqf4MhA6",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/m22272RwZl6s3Mm.jpg",
+                                "Height": 480,
+                                "Width": 1200,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "qP5LXfWDzP4XhIHA",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "cH6VmndV64tVebFy",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "CdCSydjSYdGxVH0D",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/n2227WiyGsbNGgu.jpg",
+                                "Height": 810,
+                                "Width": 1080,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "XCZW4IOlqZ0xv4eH",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "VkMYq5DY8vJocEy9",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "RRQYf9hgJ0LGkvne",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/n22274JEaToyzim.jpg",
+                                "Height": 608,
+                                "Width": 1080,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "Emf64Uyfw8A0y0Q4",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "Cn18PYONQiRuB9ND",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "eQ4zo5s2vfaI4SDZ",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/p2227zFrr8he2jq.jpg",
+                                "Height": 607,
+                                "Width": 1080,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "d3BQQLV0ieY9u8MQ",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "nUM0Je1hGVw4aZwc",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "RYprwBvbx8Jcvkvy",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/u22276FITi2GAj4.jpg",
+                                "Height": 608,
+                                "Width": 1080,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "wmgaHAhgcEh2tasv",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "pla4XDMJfWGSdOLz",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "muL8ZPMOY5dkXvOf",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/n2227OBgIOnGnRn.jpg",
+                                "Height": 412,
+                                "Width": 2525,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "vHjjzT3RPxMFHCik",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "n2hDAIaN26cCzieT",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "LqpU9cGARtEEbqN8",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/b2227al0s1k4bKT.png",
+                                "Height": 1080,
+                                "Width": 1920,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "Y9roT51EV7pJn22P",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "PwDHajDUiifp9ajq",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "hu1Kfv6Gq2WmgVwE",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/s2227A4qzKPkYJ4.jpg",
+                                "Height": 1080,
+                                "Width": 1920,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "hR1aooBjf66UHxSG",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "Ka67QHBxfZWjQOMs",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "nyF7LJ061ZtCROpV",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/b2227o4dFFf1wCc.jpg",
+                                "Height": 414,
+                                "Width": 2559,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "DOWQ1YARgSKjoz77",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "puOm41XIXtOzt7kY",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }, {
+                            "Guid": "XWwP3b4uHqDBLUGs",
+                            "View": "item-view",
+                            "Style": [],
+                            "Content": {
+                                "Link": null,
+                                "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/y2227pAJJD2EeTI.jpg",
+                                "Height": 974,
+                                "Width": 1080,
+                                "Alt": "",
+                                "FigCaptions": [{
+                                    "Guid": "uOlzJdQkkRjaVIDe",
+                                    "View": "captiontitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }, {
+                                    "Guid": "AHOYvioUNSrzbSOe",
+                                    "View": "captionsubtitle-view",
+                                    "Content": "",
+                                    "Style": []
+                                }]
+                            }
+                        }]
+                    }
+                },
+                "Title": null
+            }]
+        }, {
+            "Guid": "swYA03SpARLVmxTg",
+            "SiteId": 3335207,
+            "IsStartPage": 1,
+            "HideMenu": null,
+            "Url": "\/dackoof",
+            "Title": "DACKOOF",
+            "SeoTitle": null,
+            "SeoDescription": null,
+            "ShareImage": null,
+            "CreatedAt": "2022-01-28 14:57:15",
+            "Style": null,
+            "UnPublish": null,
+            "Sections": [{
+                "Guid": "y5wLzhagOap7UbiS",
+                "Idx": 0,
+                "SiteId": 3335207,
+                "PageGuid": "swYA03SpARLVmxTg",
+                "ProductGuid": null,
+                "View": "cover-temp",
+                "ViewType": "Cover",
+                "ViewId": "cover2",
+                "Style": {
+                    "padding-top": "5vh",
+                    "padding-bottom": "5vh",
+                    "padding-left": "5vw",
+                    "padding-right": "5vw",
+                    "justify-content": "center",
+                    "align-items": "center",
+                    "min-height": "100vh"
+                },
+                "Settings": {
+                    "animation": "",
+                    "class": "cover2"
+                },
+                "ElementsTop": [{
+                    "Guid": "U2VFIGdvghyB4TJF",
+                    "View": "logo-view",
+                    "Settings": {
+                        "animation": "text-tracking-in-expand"
+                    },
+                    "Style": {
+                        "font-size": "3em",
+                        "text-transform": "uppercase",
+                        "letter-spacing": "0.1em",
+                        "text-align": "center",
+                        "color": "#ffffff",
+                        "margin-bottom": "0.2em"
+                    },
+                    "Content": {
+                        "Text": "ADITYA SUNILKUMAR",
+                        "Link": "",
+                        "Src": "",
+                        "Height": "",
+                        "Width": "",
+                        "ImageHeight": "50px"
+                    }
+                }, {
+                    "Guid": "jYZ69PczZ0YbxE9c",
+                    "View": "links-view",
+                    "Style": {
+                        "color": "#ffffff",
+                        "font-size": "1.6em",
+                        "text-transform": "uppercase",
+                        "letter-spacing": "0.1em"
+                    },
+                    "Settings": {
+                        "animation": "fade-up"
+                    },
+                    "Content": [{
+                        "Guid": "FhxPj24NajarX2Ul",
+                        "Link": "\/",
+                        "Title": "Home"
+                    }, {
+                        "Guid": "sCZDuBfIEl2sruiv",
+                        "Link": "\/galler",
+                        "Title": "My Galleries"
+                    }, {
+                        "Guid": "tCJ71G5UPs7oMPlW",
+                        "Title": "SERVICES",
+                        "Link": "\/services"
+                    }, {
+                        "Guid": "WXbMk8leoWnNiElY",
+                        "Link": "\/aboutme",
+                        "Title": "About me"
+                    }]
+                }],
+                "ElementsBottom": null,
+                "ElementsFixed": {
+                    "SingleImageBg1": {
+                        "Guid": "xHiYLY9SIfnpgZkK",
+                        "View": "singleimagebg-view",
+                        "Settings": {
+                            "iframe-hide-controls": "1",
+                            "iframe-auto-play": "1",
+                            "iframe-mute": "1",
+                            "iframe-loop": "1",
+                            "iframe-cover": "1",
+                            "animation": "fade-in",
+                            "hover-transition": "bg-zoom-left"
+                        },
+                        "Style": {
+                            "background-attachment": "fixed",
+                            "background-size": "cover"
+                        },
+                        "Content": {
+                            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/m2227jdQOj46Vnt.jpg",
+                            "Width": 1920,
+                            "Height": 1080
+                        }
+                    }
+                },
+                "Title": null
+            }]
+        }]);
+
+        site.actions.init.site({
+            "Guid": "i2227dViWCWbb9Q",
+            "Id": 3335207,
+            "IsPublished": null,
+            "HidePbLink": null,
+            "Url": null,
+            "Title": "dackoof",
+            "MainMenu": {
+                "View": "menu1-menu",
+                "ViewId": "centered1",
+                "Guid": "MAINMENU",
+                "Links": [{
+                    "Guid": "vgS13F0xuY59Zf8g",
+                    "Title": "DACKOOF",
+                    "Link": "\/dackoof",
+                    "PageGuid": "swYA03SpARLVmxTg"
+                }, {
+                    "Guid": "lGqt2qCBut2vG6EW",
+                    "Title": "GALLERY",
+                    "Link": "\/galler",
+                    "PageGuid": "eYUVTiRrOu1UH45S"
+                }, {
+                    "Guid": "ILYWe1jqXx3WmwTA",
+                    "Title": "SERVICES",
+                    "Link": "\/services",
+                    "PageGuid": "rO89XKFKbPKI6aLy"
+                }, {
+                    "Guid": "Y3qCaANHMydcqZ6B",
+                    "Title": "ABOUT ME",
+                    "Link": "\/aboutme",
+                    "PageGuid": "J5w9q783OPKAijIK"
+                }],
+                "MenuType": "",
+                "Settings": {
+                    "class": "centered1"
+                },
+                "Style": {
+                    "padding-bottom": "",
+                    "padding-top": "",
+                    "background-image": "url()",
+                    "border-color": "rgba(254,254,254,1)",
+                    "background-color": "rgba(255,255,255,1)"
+                },
+                "ElementsTop": [{
+                    "Guid": "MAINMENULOGO",
+                    "View": "logo-view",
+                    "Content": {
+                        "Text": "dackoof",
+                        "Src": "",
+                        "Link": "\/",
+                        "Width": "",
+                        "Height": "",
+                        "ImageHeight": "50px"
+                    },
+                    "Settings": {
+                        "animation": "text-tracking-in-expand"
+                    },
+                    "Style": {
+                        "text-transform": "uppercase",
+                        "letter-spacing": "0.1em",
+                        "text-align": "center",
+                        "font-size": "3em",
+                        "color": "rgba(0,0,0,1)"
+                    }
+                }],
+                "ElementsBottom": [{
+                    "Guid": "MAINMENULINKS",
+                    "View": "mainmenulinks-view",
+                    "Settings": {
+                        "animation": "fade-in"
+                    },
+                    "Style": {
+                        "margin-top": "1em",
+                        "font-size": "1em",
+                        "letter-spacing": "0.1em"
+                    }
+                }],
+                "ElementsFixed": []
+            },
+            "GlobalClasses": {
+                "Page": {
+                    "background-color": "#ffffff",
+                    "font-family": "'Montserrat',sans-serif",
+                    "color": "#000000",
+                    "min-height": "100%",
+                    "font-size": "100%"
+                },
+                "CaptionTitle": {
+                    "font-size": "1.2em",
+                    "text-transform": "uppercase"
+                },
+                "CaptionSubTitle": {
+                    "padding-top": "0.1em"
+                },
+                "CaptionButton": {
+                    "border-radius": "0.2em",
+                    "background": "transparent",
+                    "border": "1px solid",
+                    "font-size": "1.1em",
+                    "text-decoration": "none",
+                    "letter-spacing": "0.2em",
+                    "text-transform": "uppercase"
+                },
+                "Button": {
+                    "border-radius": "0.2em",
+                    "background": "transparent",
+                    "border": "1px solid",
+                    "font-size": "1.1em",
+                    "text-decoration": "none",
+                    "letter-spacing": "0.2em",
+                    "text-transform": "uppercase"
+                },
+                "BlogButton": {
+                    "border-radius": "0.2em",
+                    "background": "transparent",
+                    "border": "1px solid",
+                    "font-size": "1.1em",
+                    "text-decoration": "none",
+                    "letter-spacing": "0.2em",
+                    "text-transform": "uppercase"
+                },
+                "Border": {
+                    "padding-bottom": "1em",
+                    "border-top": "1px solid",
+                    "width": "100%"
+                },
+                "Link": {
+                    "text-decoration": "none"
+                },
+                "Header": {
+                    "font-size": "1.8em",
+                    "text-transform": "uppercase",
+                    "text-align": "center",
+                    "letter-spacing": "0.1em"
+                },
+                "Header2": {
+                    "font-size": "1.5em",
+                    "text-transform": "uppercase",
+                    "text-align": "center",
+                    "letter-spacing": "0.1em"
+                },
+                "Header3": {
+                    "font-size": "1.2em",
+                    "text-transform": "uppercase",
+                    "text-align": "center",
+                    "letter-spacing": "0.1em"
+                },
+                "LongText": {
+                    "line-height": "1.8em"
+                },
+                "BlogPost": {
+                    "max-width": "1200px",
+                    "margin-top": "2.5em",
+                    "margin-bottom": "2.5em",
+                    "padding-top": "2.5em",
+                    "padding-bottom": "5em",
+                    "border-color": "#dedede",
+                    "border-bottom-width": "1px",
+                    "border-top-width": "0"
+                },
+                "BlogHeader": {
+                    "font-size": "1.8em",
+                    "text-transform": "uppercase",
+                    "align-self": "center",
+                    "letter-spacing": "0.1em"
+                },
+                "BlogDate": {
+                    "margin-top": "0.2em",
+                    "align-self": "center"
+                },
+                "BlogText": {
+                    "margin-top": "2em",
+                    "margin-bottom": "2em",
+                    "line-height": "1.8em"
+                },
+                "BlogShare": {
+                    "align-self": "center",
+                    "margin-top": "2em"
+                },
+                "BlogCommentIcon": {
+                    "align-self": "center",
+                    "margin-top": "0.6em",
+                    "font-size": "2.6em"
+                },
+                "ClientGallery": {
+                    "padding-left": "5vw",
+                    "padding-right": "5vw",
+                    "padding-top": "5vh",
+                    "padding-bottom": "5vh"
+                },
+                "ClientGalleryHeader": {
+                    "font-size": "1.8em",
+                    "text-transform": "uppercase",
+                    "align-self": "center",
+                    "letter-spacing": "0.1em"
+                },
+                "ClientGalleryDate": {
+                    "margin-top": "0.2em",
+                    "align-self": "center"
+                },
+                "ClientGalleryText": {
+                    "margin-top": "2em",
+                    "margin-bottom": "4em",
+                    "max-width": "900px",
+                    "align-self": "center",
+                    "line-height": "1.8em"
+                },
+                "ClientGallerySearchRow": {
+                    "margin-bottom": "5em",
+                    "max-width": "900px",
+                    "align-self": "center"
+                },
+                "ClientGalleryIcons": {
+                    "align-self": "center",
+                    "margin-top": "0.6em",
+                    "font-size": "2.8em"
+                },
+                "ClientGalleryFigureTitle": {
+                    "font-size": "1.1em",
+                    "margin-bottom": "0.2em",
+                    "text-transform": "uppercase"
+                },
+                "Product": {
+                    "padding-left": "5vw",
+                    "padding-right": "5vw",
+                    "padding-top": "5vh",
+                    "padding-bottom": "5vh"
+                },
+                "ProductHeader": {
+                    "font-size": "1.8em",
+                    "text-transform": "uppercase",
+                    "align-self": "center",
+                    "letter-spacing": "0.1em",
+                    "text-align": "center"
+                },
+                "ProductSubHeader": {
+                    "font-size": "1.1em",
+                    "align-self": "center",
+                    "text-align": "center",
+                    "letter-spacing": "0.1em",
+                    "margin-top": "0.5em"
+                },
+                "ProductPrice": {
+                    "font-size": "1.1em",
+                    "text-transform": "uppercase",
+                    "align-self": "center",
+                    "letter-spacing": "0.1em",
+                    "margin-top": "0.5em"
+                },
+                "ProductText": {
+                    "margin-top": "3em",
+                    "margin-bottom": "3em",
+                    "max-width": "900px",
+                    "line-height": "1.8em",
+                    "text-align": "center"
+                },
+                "ProductShare": {
+                    "align-self": "center",
+                    "margin-bottom": "4em"
+                },
+                "ProductButton": {
+                    "border-radius": "0.2em",
+                    "background": "transparent",
+                    "border": "1px solid",
+                    "font-size": "0.9em",
+                    "text-decoration": "none",
+                    "letter-spacing": "0.2em",
+                    "text-transform": "uppercase",
+                    "margin-top": "1.4em"
+                },
+                "ProductVariants": {
+                    "margin-top": "1em",
+                    "min-width": "130px"
+                }
+            },
+            "MobileClasses": null,
+            "ChildClasses": null,
+            "MobileStyles": null,
+            "GlobalLinks": {
+                "LongText": {
+                    "a": {
+                        "color": "#089fda"
+                    },
+                    "a:hover": {
+                        "text-decoration": "underline"
+                    }
+                },
+                "Link": {
+                    "a:hover": {
+                        "color": "#089fda"
+                    }
+                },
+                "MainMenuLinks": {
+                    "a:hover": {
+                        "color": "#089fda"
+                    }
+                },
+                "SocialMedia": {
+                    "a:hover": {
+                        "color": "#089fda"
+                    }
+                },
+                "Links": {
+                    "a:hover": {
+                        "text-decoration": "underline"
+                    }
+                }
+            },
+            "ChildLinks": null,
+            "BlogSettings": {
+                "DisableComments": "0",
+                "Url": "blog",
+                "Settings": {
+                    "icon-type": "titles"
+                },
+                "ShareButtons": [{
+                    "Guid": "blogtwitter",
+                    "Type": "twitter",
+                    "Title": "Twitter"
+                }, {
+                    "Guid": "blogpinterest",
+                    "Type": "pinterest",
+                    "Title": "Pinterest"
+                }, {
+                    "Guid": "blogfacebook",
+                    "Type": "facebook",
+                    "Title": "Facebook"
+                }, {
+                    "Guid": "bloglinkedin",
+                    "Type": "linkedin",
+                    "Title": "LinkedIn"
+                }]
+            },
+            "StoreSettings": {
+                "Currency": "USD",
+                "ReturnPolicy": "",
+                "TermsAndConditions": "",
+                "CheckoutEmail": "",
+                "Url": "store",
+                "Settings": {
+                    "hide-share": "0",
+                    "icon-type": "square",
+                    "hide-phone": "",
+                    "hide-address": "",
+                    "hide-zip": "",
+                    "hide-city": "",
+                    "hide-state": "",
+                    "hide-country": "",
+                    "hide-shipping": "",
+                    "hide-message": "",
+                    "hide-news": ""
+                },
+                "ShareButtons": [{
+                    "Guid": "storetwitter",
+                    "Type": "twitter",
+                    "Title": "Twitter"
+                }, {
+                    "Guid": "storepinterest",
+                    "Type": "pinterest",
+                    "Title": "Pinterest"
+                }, {
+                    "Guid": "storefacebook",
+                    "Type": "facebook",
+                    "Title": "Facebook"
+                }, {
+                    "Guid": "storelinkedin",
+                    "Type": "linkedin",
+                    "Title": "LinkedIn"
+                }],
+                "CompanyInfo": {
+                    "Name": "",
+                    "Address": "",
+                    "Country": {
+                        "Name": "",
+                        "Code": ""
+                    },
+                    "Phone": "",
+                    "Email": "",
+                    "OrgId": ""
+                },
+                "Payment": {
+                    "Method": 1,
+                    "ManualPaymentInfo": "",
+                    "EnablePayPal": 0,
+                    "PayPalEmail": "",
+                    "AcceptCreditCard": 0,
+                    "StripeId": "",
+                    "EnableInvoice": 1,
+                    "InvoiceMessage": "",
+                    "PaymentInstructions": "",
+                    "Timeframe": 30
+                },
+                "Shipping": {
+                    "Method": 0,
+                    "Zones": [{
+                        "Guid": "123global",
+                        "DisableToOther": 0,
+                        "Country": {
+                            "Name": "World",
+                            "Code": "WORLD"
+                        },
+                        "WeightRates": [{
+                            "Guid": "everymin",
+                            "Min": 0,
+                            "Max": 2,
+                            "Price": 40
+                        }, {
+                            "Guid": "everymiddle",
+                            "Min": 2,
+                            "Max": 5,
+                            "Price": 80
+                        }, {
+                            "Guid": "everymax",
+                            "Min": 5,
+                            "Max": 10,
+                            "Price": 120
+                        }]
+                    }]
+                },
+                "Taxes": {
+                    "Method": 0,
+                    "Zones": [{
+                        "Guid": "123global",
+                        "DisableToOther": 0,
+                        "TaxPercent": 0,
+                        "Country": {
+                            "Name": "World",
+                            "Code": "WORLD"
+                        }
+                    }]
+                },
+                "Discounts": []
+            },
+            "SeoDescription": null,
+            "SeoLangId": "en",
+            "SeoKeywords": null,
+            "SiteIcon": null,
+            "SeoTwitterUsername": null,
+            "ShareImage": null,
+            "DisableRightClick": null,
+            "EnableCookieMessage": null,
+            "CookieMessage": null,
+            "CustomCss": null,
+            "GoogleFonts": [{
+                "family": "'Montserrat',sans-serif",
+                "title": "Montserrat",
+                "occurrences": 2,
+                "type": "google"
+            }, {
+                "family": "'Bebas Neue',sans-serif",
+                "title": "Bebas Neue",
+                "occurrences": 1,
+                "type": "google"
+            }, {
+                "family": "'Actor',sans-serif",
+                "title": "Actor",
+                "occurrences": 1,
+                "type": "google"
+            }],
+            "GoogleSubset": null,
+            "GoogleAnalyticsId": null,
+            "GoogleTagManagerId": null,
+            "MetaVerificationName": null,
+            "MetaVerificationContent": null,
+            "Status": null,
+            "Situation": null
+        });
+        checkoutStore.actions.init();
+
+        account.actions.init({
+            "Guid": "i2227sjgyljL0Pa",
+            "SiteId": 3335207,
+            "AccountType": null,
+            "NextPayDate": null,
+            "IsMonthly": null,
+            "AdvancedMode": null,
+            "Language": "en",
+            "WhoControlsDomain": null,
+            "Email": "dacksmac@gmail.com",
+            "EmailBounced": null,
+            "FirstName": null,
+            "LastName": "dacksmac@gmail.com",
+            "Profession": "student",
+            "Ip": "103.165.21.194",
+            "Country": null,
+            "CountryCode": "IN",
+            "UnsubscribeNews": null,
+            "UnsubscribeCampaigns": null,
+            "UnsubscribeCare": null,
+            "MobileVisitedAdminAt": null,
+            "MobileVisitedAdminNrOfDays": null,
+            "CreatedAt": "2022-01-28 14:50:42",
+            "UpgradedAt": null,
+            "DeletedAt": null,
+            "DowngradedAt": null,
+            "PublishedAt": null,
+            "DowngradeToPlan": null,
+            "DowngradedFromPlan": null,
+            "DowngradeNewDomain": null,
+            "VatNr": null,
+            "NrOfPages": 4,
+            "NrOfImages": 24,
+            "NrOfProducts": null,
+            "NrOfPosts": null,
+            "NrOfClientImages": null,
+            "PageQuota": 10,
+            "ImageQuota": 50,
+            "ProductQuota": 10,
+            "PostQuota": 100,
+            "ClientImageQuota": 10,
+            "AffiliateKey": null,
+            "DiscountCode": null,
+            "SchoolKey": null,
+            "StudentEndDate": null,
+            "MigrateStatus": null,
+            "MigratedFromVersion": null,
+            "MigratedAt": null,
+            "ColorsSettings": ["rgba(157,127,127,1)", "rgba(254,254,254,1)", "rgba(94,7,111,1)", "rgba(228,0,255,0)", "rgba(208,2,27,1)", "rgba(245,166,35,1)", "rgba(248,231,28,1)", "rgba(139,87,42,1)", "rgba(126,211,33,1)", "rgba(65,117,5,1)", "rgba(189,16,224,1)", "rgba(144,19,254,1)", "rgba(74,144,226,1)", "rgba(0,0,0,1)", "rgba(255,255,255,1)", "rgba(0,0,0,0)"],
+            "Discount": null,
+            "DiscountEndDate": null,
+            "StoreMig": null,
+            "BlogMig": null
+        });
+        posts.actions.init([]);
+        products.actions.init([]);
+        productCategories.actions.init([]);
+        blogCategories.actions.init([]);
+        translations.actions.init([]);
+        lang.actions.init();
+        imageArchive.actions.init([{
+            "Guid": "m2227jdQOj46Vnt",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/m2227jdQOj46Vnt.jpg",
+            "Source": null,
+            "FileName": "m2227jdQOj46Vnt.jpg",
+            "OriginalFileName": "5228758.jpg",
+            "Width": 1920,
+            "Height": 1080,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:37:27",
+            "S3LocationId": 4
+        }, {
+            "Guid": "c2227b2TS7KOiFq",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/c2227b2TS7KOiFq.jpg",
+            "Source": null,
+            "FileName": "c2227b2TS7KOiFq.jpg",
+            "OriginalFileName": "5027791594586112.jpg",
+            "Width": 600,
+            "Height": 397,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:31:45",
+            "S3LocationId": 4
+        }, {
+            "Guid": "p2227zFrr8he2jq",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/p2227zFrr8he2jq.jpg",
+            "Source": null,
+            "FileName": "p2227zFrr8he2jq.jpg",
+            "OriginalFileName": "18342481738711829563360416944016181817814963n.jpg",
+            "Width": 1080,
+            "Height": 607,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:27:15",
+            "S3LocationId": 4
+        }, {
+            "Guid": "n2227WiyGsbNGgu",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/n2227WiyGsbNGgu.jpg",
+            "Source": null,
+            "FileName": "n2227WiyGsbNGgu.jpg",
+            "OriginalFileName": "910205378400308898121493477988402288589254n.jpg",
+            "Width": 1080,
+            "Height": 810,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:27:14",
+            "S3LocationId": 4
+        }, {
+            "Guid": "n22274JEaToyzim",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/n22274JEaToyzim.jpg",
+            "Source": null,
+            "FileName": "n22274JEaToyzim.jpg",
+            "OriginalFileName": "1836229313879210690126105736254683090426841n.jpg",
+            "Width": 1080,
+            "Height": 608,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:26:24",
+            "S3LocationId": 4
+        }, {
+            "Guid": "u22276FITi2GAj4",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/u22276FITi2GAj4.jpg",
+            "Source": null,
+            "FileName": "u22276FITi2GAj4.jpg",
+            "OriginalFileName": "1834907214875239626759442824768493476664848n.jpg",
+            "Width": 1080,
+            "Height": 608,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:26:23",
+            "S3LocationId": 4
+        }, {
+            "Guid": "s2227wImGOco2MF",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/s2227wImGOco2MF.jpg",
+            "Source": null,
+            "FileName": "s2227wImGOco2MF.jpg",
+            "OriginalFileName": "1564738844290706750560285452622008726036842n.jpg",
+            "Width": 1080,
+            "Height": 1080,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:24:10",
+            "S3LocationId": 4
+        }, {
+            "Guid": "g2227TwttBapara",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/g2227TwttBapara.jpg",
+            "Source": null,
+            "FileName": "g2227TwttBapara.jpg",
+            "OriginalFileName": "1570084851484821804597973606531739823854667n.jpg",
+            "Width": 1080,
+            "Height": 1080,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:24:09",
+            "S3LocationId": 4
+        }, {
+            "Guid": "y2227pAJJD2EeTI",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/y2227pAJJD2EeTI.jpg",
+            "Source": null,
+            "FileName": "y2227pAJJD2EeTI.jpg",
+            "OriginalFileName": "8387440924712832329818393321978887606360817n.jpg",
+            "Width": 1080,
+            "Height": 974,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:23:57",
+            "S3LocationId": 4
+        }, {
+            "Guid": "n2227OBgIOnGnRn",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/n2227OBgIOnGnRn.jpg",
+            "Source": null,
+            "FileName": "n2227OBgIOnGnRn.jpg",
+            "OriginalFileName": "stoner.jpg",
+            "Width": 2525,
+            "Height": 412,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:21:07",
+            "S3LocationId": 4
+        }, {
+            "Guid": "x2227nTaLKBztgo",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/x2227nTaLKBztgo.jpg",
+            "Source": null,
+            "FileName": "x2227nTaLKBztgo.jpg",
+            "OriginalFileName": "everlastingsummer-1643382859169-9900.jpg",
+            "Width": 1920,
+            "Height": 1080,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:15:11",
+            "S3LocationId": 4
+        }, {
+            "Guid": "m2227ZGMO2Rx8V7",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/m2227ZGMO2Rx8V7.jpg",
+            "Source": null,
+            "FileName": "m2227ZGMO2Rx8V7.jpg",
+            "OriginalFileName": "wallpaperflare.comwallpaper.jpg",
+            "Width": 1920,
+            "Height": 1080,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:15:09",
+            "S3LocationId": 4
+        }, {
+            "Guid": "h2227qd1gJEFr8u",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/h2227qd1gJEFr8u.jpg",
+            "Source": null,
+            "FileName": "h2227qd1gJEFr8u.jpg",
+            "OriginalFileName": "sagedone.jpg",
+            "Width": 1920,
+            "Height": 1080,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:09:16",
+            "S3LocationId": 4
+        }, {
+            "Guid": "m22272Lw3QuhAVb",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/m22272Lw3QuhAVb.jpg",
+            "Source": null,
+            "FileName": "m22272Lw3QuhAVb.jpg",
+            "OriginalFileName": "capturebalender.jpg",
+            "Width": 1920,
+            "Height": 1004,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:09:15",
+            "S3LocationId": 4
+        }, {
+            "Guid": "x2227MayJtvyust",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/x2227MayJtvyust.png",
+            "Source": null,
+            "FileName": "x2227MayJtvyust.png",
+            "OriginalFileName": "botinwild.png",
+            "Width": 1920,
+            "Height": 1080,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:09:14",
+            "S3LocationId": 4
+        }, {
+            "Guid": "b2227al0s1k4bKT",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/b2227al0s1k4bKT.png",
+            "Source": null,
+            "FileName": "b2227al0s1k4bKT.png",
+            "OriginalFileName": "untitledcubes.png",
+            "Width": 1920,
+            "Height": 1080,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:08:03",
+            "S3LocationId": 4
+        }, {
+            "Guid": "h2227Z4s2IFbq43",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/h2227Z4s2IFbq43.jpg",
+            "Source": null,
+            "FileName": "h2227Z4s2IFbq43.jpg",
+            "OriginalFileName": "toga.jpg",
+            "Width": 1080,
+            "Height": 1080,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:07:53",
+            "S3LocationId": 4
+        }, {
+            "Guid": "v2227p8aEKmNGdN",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/v2227p8aEKmNGdN.jpg",
+            "Source": null,
+            "FileName": "v2227p8aEKmNGdN.jpg",
+            "OriginalFileName": "jujutsukaisen.jpg",
+            "Width": 1080,
+            "Height": 1080,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:06:12",
+            "S3LocationId": 4
+        }, {
+            "Guid": "x2227fNDatPfnvu",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/x2227fNDatPfnvu.jpg",
+            "Source": null,
+            "FileName": "x2227fNDatPfnvu.jpg",
+            "OriginalFileName": "rdr2flash.jpg",
+            "Width": 1920,
+            "Height": 1080,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:06:11",
+            "S3LocationId": 4
+        }, {
+            "Guid": "b2227o4dFFf1wCc",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/b2227o4dFFf1wCc.jpg",
+            "Source": null,
+            "FileName": "b2227o4dFFf1wCc.jpg",
+            "OriginalFileName": "flashbannernew.jpg",
+            "Width": 2559,
+            "Height": 414,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:06:10",
+            "S3LocationId": 4
+        }, {
+            "Guid": "s2227A4qzKPkYJ4",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/s2227A4qzKPkYJ4.jpg",
+            "Source": null,
+            "FileName": "s2227A4qzKPkYJ4.jpg",
+            "OriginalFileName": "2nduinvitebannerditro-min.jpg",
+            "Width": 1920,
+            "Height": 1080,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:06:09",
+            "S3LocationId": 4
+        }, {
+            "Guid": "m2227lRf4IuzYVk",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/m2227lRf4IuzYVk.gif",
+            "Source": null,
+            "FileName": "m2227lRf4IuzYVk.gif",
+            "OriginalFileName": "standard1.gif",
+            "Width": 600,
+            "Height": 240,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:03:42",
+            "S3LocationId": 4
+        }, {
+            "Guid": "m22272RwZl6s3Mm",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/m22272RwZl6s3Mm.jpg",
+            "Source": null,
+            "FileName": "m22272RwZl6s3Mm.jpg",
+            "OriginalFileName": "twitchbanerdackof.jpg",
+            "Width": 1200,
+            "Height": 480,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 15:03:01",
+            "S3LocationId": 4
+        }, {
+            "Guid": "l2227SLVnRRuFHL",
+            "SiteId": 3335207,
+            "Src": "https:\/\/d37b3blifa5mva.cloudfront.net\/000_clients\/3335207\/page\/l2227SLVnRRuFHL.png",
+            "Source": null,
+            "FileName": "l2227SLVnRRuFHL.png",
+            "OriginalFileName": "wp6081467.png",
+            "Width": 1920,
+            "Height": 1080,
+            "IFrameSrc": null,
+            "IFrameHeight": null,
+            "IFrameWidth": null,
+            "AddedAt": "2022-01-28 14:54:17",
+            "S3LocationId": 4
+        }]);
+
+        utils.miscFront.addBrowserClassToBody();
+    </script>
+
+
+    <script type="application/ld+json" id="jsonLd"></script>
+    <link rel="alternate" type="application/rss+xml" title="" href="/rss" />
+
+    <!-- source-js -->
+    <script src="https://d2z18g6bj3mwjn.cloudfront.net/pb4/_output/pb4.out.admin.ver.1643272428272.js"></script>
+    <!-- /source-js -->
+
+    <script src="https://www.recaptcha.net/recaptcha/api.js?render=explicit" async defer></script>
+    <script id="stripe-js" src="https://js.stripe.com/v3/" async></script>
+    <script>
+        if (utils.environment.isTouch() && utils.environment.wWidth() < 1000) {
+            adminApi.adminVisit().then(data => {});
+        }
+    </script>
+
+
+    <!-- Event snippet for Purchase conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion(url, value) {
+            var callback = function() {
+                // Do nothing
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-991509311/htEjCK_z8f8BEL_25NgD',
+                'value': value,
+                'currency': 'USD',
+                'transaction_id': '',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
+    <script>
+        function uet_report_conversion(product, value) {
+            window.uetq = window.uetq || [];
+            window.uetq.push('event', 'PRODUCT_PURCHASE', {
+                "ecomm_prodid": product,
+                "ecomm_pagetype": "PURCHASE",
+                "revenue_value": value,
+                "currency": "USD"
+            });
+        }
+    </script>
+
+
+</body>
+
+</html>
